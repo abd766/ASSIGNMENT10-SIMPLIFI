@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding:0;
+    background-color:green;
+}
+.header{
+    background-color: black;
+    padding:0px 60px;
+    border-bottom: 2px solid grey;
+    color: white;
+    background-color: black;
+}
+.header h1{
+    font-size:40px;
+    font-weight:400;
+}
+.main{
+    padding:0px 60px;   
+}
+.todo{
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+    gap:5px;
+}
+.cut{
+    text-decoration: line-through;
+}
